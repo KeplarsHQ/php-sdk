@@ -24,7 +24,7 @@ class Client
     private const DEFAULT_TIMEOUT = 30;
     private const DEFAULT_MAX_RETRIES = 3;
     private const DEFAULT_RETRY_DELAY = 1;
-    private const VERSION = '1.11.10';
+    private const VERSION = '2.0.0';
 
     private string $apiKey;
     private string $baseUrl;
