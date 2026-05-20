@@ -15,22 +15,22 @@ class Emails
 
     public function sendInstant(array $params): array
     {
-        return $this->client->request('POST', '/api/v1/public/send-email/instant', $params)['data'];
+        return $this->client->request('POST', '/api/v1/send-email/instant', $params)['data'];
     }
 
     public function sendHigh(array $params): array
     {
-        return $this->client->request('POST', '/api/v1/public/send-email/high', $params)['data'];
+        return $this->client->request('POST', '/api/v1/send-email/high', $params)['data'];
     }
 
     public function sendAsync(array $params): array
     {
-        return $this->client->request('POST', '/api/v1/public/send-email/async', $params)['data'];
+        return $this->client->request('POST', '/api/v1/send-email/async', $params)['data'];
     }
 
     public function sendBulk(array $params): array
     {
-        return $this->client->request('POST', '/api/v1/public/send-email/bulk', $params)['data'];
+        return $this->client->request('POST', '/api/v1/send-email/bulk', $params)['data'];
     }
 
     public function send(array $params): array
@@ -43,6 +43,6 @@ class Emails
         if (!isset($params['priority'])) {
             $params['priority'] = 'async';
         }
-        return $this->client->request('POST', '/api/v1/public/send-email/schedule', $params)['data'];
+        return $this->client->request('POST', '/api/v1/send-email/schedule', $params)['data'];
     }
 }
