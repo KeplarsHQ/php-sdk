@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'keplars/email-sdk',
-        'pretty_version' => 'v1.11.3',
-        'version' => '1.11.3.0',
-        'reference' => '2b10ae879d9ec5bd1b9438463bf448fe7a701421',
+        'pretty_version' => 'v1.11.4',
+        'version' => '1.11.4.0',
+        'reference' => 'e655053561fbbd44685360aa2786d38a6e1d3839',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'guzzlehttp/guzzle' => array(
-            'pretty_version' => '7.10.1',
-            'version' => '7.10.1.0',
-            'reference' => 'b777df1776c667e287664dda75b0298ad8ae3a14',
+            'pretty_version' => '7.10.2',
+            'version' => '7.10.2.0',
+            'reference' => 'aed36fd5fb4844f284252a999d9abf35d3a9a1ae',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/guzzle',
             'aliases' => array(),
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'keplars/email-sdk' => array(
-            'pretty_version' => 'v1.11.3',
-            'version' => '1.11.3.0',
-            'reference' => '2b10ae879d9ec5bd1b9438463bf448fe7a701421',
+            'pretty_version' => 'v1.11.4',
+            'version' => '1.11.4.0',
+            'reference' => 'e655053561fbbd44685360aa2786d38a6e1d3839',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
