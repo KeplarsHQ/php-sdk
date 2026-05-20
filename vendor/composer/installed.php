@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'keplars/email-sdk',
-        'pretty_version' => 'v1.11.2',
-        'version' => '1.11.2.0',
-        'reference' => 'e1c5652be5f6900a68d6a9a32e3ed0c3eab1193c',
+        'pretty_version' => 'v1.11.3',
+        'version' => '1.11.3.0',
+        'reference' => '2b10ae879d9ec5bd1b9438463bf448fe7a701421',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'keplars/email-sdk' => array(
-            'pretty_version' => 'v1.11.2',
-            'version' => '1.11.2.0',
-            'reference' => 'e1c5652be5f6900a68d6a9a32e3ed0c3eab1193c',
+            'pretty_version' => 'v1.11.3',
+            'version' => '1.11.3.0',
+            'reference' => '2b10ae879d9ec5bd1b9438463bf448fe7a701421',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
